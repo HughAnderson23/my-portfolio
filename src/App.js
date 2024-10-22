@@ -12,7 +12,7 @@ const Portfolio = () => {
       githubLink: "https://github.com/HughAnderson23/Burger-Builder",
       liveLink: "https://my-first-fstack-c4007ac93293.herokuapp.com/home",
       tags: ["JavaScript", "React.js", "Flask", "Python", "PostgreSQL", "sqlAlchemy", "Restful APIs", "Heroku"],
-      thumbnail: burgerThumbnail // Thumbnail for this project
+      thumbnail: burgerThumbnail 
     },
     {
       title: "Multiplayer Web-Based Physics Game",
@@ -20,7 +20,7 @@ const Portfolio = () => {
       githubLink: "https://github.com/HughAnderson23/my-pelican-game-master",
       liveLink: "https://my-pelican-game-master-e2eee1009e58.herokuapp.com/",
       tags: ["Node.js", "THREE.js", "Express", "Socket.io", "WebGL", "Heroku"],
-      thumbnail: multiplayerThumbnail // Thumbnail for this project
+      thumbnail: multiplayerThumbnail 
     }
   ];
 
