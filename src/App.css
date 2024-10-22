@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+img {
+  border-radius: 8px;
+  max-width: 50%; /* Adjust the max-width as per your preference */
+  height: auto;
+  display: block; /* Makes the image behave like a block element */
+  margin-left: auto;
+  margin-right: auto; /* These margins center the image horizontally */
+}
+
