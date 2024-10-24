@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import { Analytics } from "@vercel/analytics/react";
 import { Github, ExternalLink, Mail } from 'lucide-react';
 import burgerThumbnail from './thumbnails/burger.PNG';
 import multiplayerThumbnail from './thumbnails/multiplayer.PNG';
@@ -52,6 +53,7 @@ const Portfolio = () => {
   ];
 
   return (
+    <>
     <div className="min-h-screen bg-gray-100">
       {/* Header/Nav */}
       <nav className="bg-white shadow-md">
@@ -112,6 +114,8 @@ const Portfolio = () => {
         </div>
       </div>
     </div>
+    <Analytics /> 
+    </> 
   );
 };
 
